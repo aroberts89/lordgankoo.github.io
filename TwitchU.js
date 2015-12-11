@@ -5,6 +5,7 @@ $(function () {
         initStatus = status;
         if (status.authenticated) {
             $('.twitch-connect').hide();
+            $('.logout').show();
         }
     });
 
@@ -12,6 +13,10 @@ $(function () {
         Twitch.login({
             scope: ['user_read', 'channel_read']
         });
+    });
+
+    $('.logout').click(function () {
+        Twitch.logout(function (error) { });
     });
 
     if (initStatus.authenticated) {
