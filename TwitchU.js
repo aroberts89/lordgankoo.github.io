@@ -15,7 +15,7 @@ $(function () {
             var link = $("<a></a>");
             link.text(list.streams[i].channel.display_name);
             link.attr("href", list.streams[i].channel.url + "/popout");
-            p.append(link + "<br>playing " + list.streams[i].channel.game);
+            p.append(link, "<br>playing " + list.streams[i].channel.game);
             $("body").append(p);
             console.log(list.streams[i].channel.url);
         }
