@@ -1,3 +1,2 @@
 # lordgankoo
-Testing Github for live web hosting
-wat this do??
+Lightweight website for Twitch viewing on a Wii U
