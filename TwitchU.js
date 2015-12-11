@@ -5,7 +5,9 @@ $(function () {
         initStatus = status;
         if (status.authenticated) {
             $('.twitch-connect').hide();
-            $('.logout').show();
+        }
+        else {
+            $('.logout').hide();
         }
     });
 
@@ -16,7 +18,9 @@ $(function () {
     });
 
     $('.logout').click(function () {
-        Twitch.logout(function (error) { });
+        Twitch.logout(function (error) {
+            reload();
+        });
     });
 
     if (initStatus.authenticated) {
