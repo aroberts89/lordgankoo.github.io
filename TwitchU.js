@@ -10,6 +10,8 @@ $(function () {
     });
 
     Twitch.api({ method: 'streams/followed', params: { stream_type: 'live' } }, function (error, list) {
-        console.log(list._total);
+        for (var i = 0; i < list._total; i++) {
+            console.log(list.streams[i].channel.url);
+        }
     });
 });
