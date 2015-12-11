@@ -11,8 +11,10 @@ $(function () {
 
     Twitch.api({ method: 'streams/followed', params: { stream_type: 'live' } }, function (error, list) {
         for (var i = 0; i < list._total; i++) {
-            var linkText = $("<p></p>").text(list.streams[i].channel.url);
-            $("body").append(linkText);
+            var link = $("<a></a>");
+            link.text(list.streams[i].channel.display_name);
+            link.attr("href", list.streams[i].channel.url + "/popout");
+            $("body").append(link);
             console.log(list.streams[i].channel.url);
         }
     });
