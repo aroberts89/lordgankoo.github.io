@@ -9,7 +9,7 @@ $(function () {
         });
     });
 
-    Twitch.api({ method: 'streams/followed' }, function (error, streams) {
-        console.log(streams.streams);
+    Twitch.api({ method: 'streams/followed', params: { stream_type: 'live' } }, function (error, list) {
+        console.log(list);
     });
 });
