@@ -9,7 +9,7 @@ $(function () {
         });
     });
 
-    Twitch.api({ method: 'channel' }, function (error, channel) {
-        console.log(channel.stream_key);
+    Twitch.api({ method: 'streams' }, function (error, streams) {
+        console.log(streams.followed);
     });
 });
