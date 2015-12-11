@@ -8,4 +8,8 @@ $(function () {
             scope: ['user_read', 'channel_read']
         });
     });
+
+    Twitch.api({ method: 'channel' }, function (error, channel) {
+        console.log(channel.stream_key);
+    });
 });
