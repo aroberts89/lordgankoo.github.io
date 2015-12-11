@@ -11,13 +11,16 @@ $(function () {
 
     Twitch.api({ method: 'streams/followed', params: { stream_type: 'live' } }, function (error, list) {
         for (var i = 0; i < list._total; i++) {
-            var p = $("<p></p>");
+            //Generate the preview and link
+            var preview = $("<img></img>").attr("src", list.streams[i].preview.large);
             var link = $("<a></a>");
             link.text(list.streams[i].channel.display_name);
             link.attr("href", list.streams[i].channel.url + "/popout");
-            p.append(link, "<br>playing " + list.streams[i].channel.game);
+
+            //Put the preview and link into a <p> and append to <body>
+            var p = $("<p></p>");
+            p.append(preview, link, "<br>playing " + list.streams[i].channel.game);
             $("body").append(p);
-            console.log(list.streams[i].channel.url);
         }
     });
 });
