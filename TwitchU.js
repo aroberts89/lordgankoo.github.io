@@ -19,7 +19,7 @@ $(function () {
 
     $('.logout').click(function () {
         Twitch.logout(function (error) {
-            reload();
+            location.reload(true);
         });
     });
 
