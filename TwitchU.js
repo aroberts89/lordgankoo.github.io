@@ -31,6 +31,7 @@ $(function () {
                 var link = $("<a></a>");
                 link.text(list.streams[i].channel.display_name);
                 link.attr("href", list.streams[i].channel.url + "/popout");
+                link.attr("style", "font-size:20px");
 
                 //Put the preview and link into a <p> and append to <body>
                 var p = $("<p></p>");
