@@ -8,6 +8,7 @@ header {
 	width:100%;
 	margin:0;
 	padding:0;
+	background-color:#327117;
 }
 	
 .top-deco{
@@ -19,10 +20,13 @@ header {
 	padding:10px;
 	background-color:#327117;
 	height:100px;
+	width:70%;
+	margin:0 auto;
 }
 
 .site-name {
 	float:left;
+	color:#ffffff;
 }
 
 .login {
