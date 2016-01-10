@@ -29,6 +29,11 @@ header {
 	color:#ffffff;
 }
 
+.site-name img {
+	float:left;
+	margin-right:5px;
+}
+
 .login {
 	float:right;
 	margin-top:27px;
