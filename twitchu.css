@@ -27,14 +27,14 @@ header {
 .site-name {
 	float:left;
 	color:#ffffff;
+	width:200px;
 }
 
 .site-name img {
 	float:left;
-	margin-right:5px;
 }
 
 .login {
 	float:right;
-	margin-top:27px;
+	margin-top:29px;
 }
