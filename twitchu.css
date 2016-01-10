@@ -14,7 +14,8 @@ header {
 }
 
 .branding {
-	
+	padding:10px;
+	background-color:#327117;
 }
 
 .site-name {
@@ -22,5 +23,5 @@ header {
 }
 
 .login {
-	
+	float:right;
 }
