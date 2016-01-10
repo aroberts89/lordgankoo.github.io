@@ -24,7 +24,7 @@ header {
 	width:70%;
 	margin:0 auto;
 }
-.branding a:link {
+.branding a:link, .branding a:visited {
 	color:#ffffff;
 }
 .site-name {
