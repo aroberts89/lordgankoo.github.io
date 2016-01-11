@@ -52,6 +52,12 @@ header {
 	min-height:800px;
 }
 
+.previewStream {
+	float:left;
+	margin-left:10px;
+	border:1px solid #000000;
+}
+
 footer {
 	background-color:#0E2E00;
 	width:100%;
