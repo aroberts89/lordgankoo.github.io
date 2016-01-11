@@ -36,7 +36,7 @@ $(function () {
                 //Put the preview and link into a <p> and append to <body>
                 var p = $("<p></p>");
                 p.append(preview, "<br>", link, "<br>playing " + list.streams[i].channel.game);
-                $("body").append(p);
+                $("content").append(p);
             }
         });
     }
