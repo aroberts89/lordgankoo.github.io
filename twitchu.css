@@ -54,6 +54,7 @@ header {
 
 .previewStream {
 	float:left;
+	margin-top:15px;
 	margin-left:10px;
 	border:1px solid #000000;
 	padding:15px;
