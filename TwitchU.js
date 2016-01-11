@@ -34,7 +34,7 @@ $(function () {
                 link.attr("style", "font-size:30px");
 
                 //Put the preview and link into a <p> and append to <body>
-                var previewBox = $("<div class="previewStream"></div>");
+                var previewBox = $("<div class='previewStream'></div>");
                 previewBox.append(preview, "<br>", link, "<br>playing " + list.streams[i].channel.game);
                 $("#content").append(previewBox);
             }
