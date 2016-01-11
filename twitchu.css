@@ -5,11 +5,13 @@ body{
 	padding:0px;
 }
 
+#wrapper{
+	margin:0 auto;
+}
 header {
 	width:100%;
 	margin:0;
 	padding:0;
-	background-color:#327117;
 }
 	
 .top-deco{
@@ -22,7 +24,7 @@ header {
 	background-color:#327117;
 	height:100px;
 	width:70%;
-	margin:0 auto;
+	
 }
 .branding a:link, .branding a:visited {
 	color:#ffffff;
