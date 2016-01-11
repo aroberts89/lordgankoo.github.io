@@ -50,13 +50,13 @@ header {
 	margin: 0 auto;
 	width:70%;
 	min-height:800px;
-	margin:20px 0px;
 }
 
 .previewStream {
 	float:left;
 	margin-left:10px;
 	border:1px solid #000000;
+	margin:20px 0px;
 }
 
 footer {
