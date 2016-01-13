@@ -35,7 +35,7 @@ $(function () {
                 link.text(list.streams[i].channel.display_name);
                 link.attr("href", list.streams[i].channel.url + "/popout");
                 link.attr("style", "font-size:30px");
-                link.prepend(preview);
+                link.prepend(preview, "<br>");
 
                 //Put the preview and link into a previewStream class and append to #content div.
                 var previewBox = $("<div class='previewStream'></div>");
