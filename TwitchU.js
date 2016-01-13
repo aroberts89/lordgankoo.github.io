@@ -40,7 +40,6 @@ $(function () {
             }
         });
 		
-		if (initStatus.authenticated) {
         Twitch.api({ method: 'user'}, function (error, user) {
 			var twitchUser = user.name;
 			var twitchUserDisplay = document.getElementById("twitchUserName");
