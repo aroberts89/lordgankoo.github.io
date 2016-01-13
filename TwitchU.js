@@ -44,7 +44,6 @@ $(function () {
 			var twitchUser = user.name;
 			var twitchUserDisplay = document.getElementById("twitchUserName");
 			twitchUserDisplay.innerHTML = twitchUser;
-            }
-        });
+            });
     }
 });
