@@ -32,7 +32,7 @@ $(function () {
                 var preview = $("<img></img>").attr("src", image);
 
                 var link = $("<a></a>");
-                link.text(preview + "<br>" + list.streams[i].channel.display_name);
+                link.text(preview.text + "<br>" + list.streams[i].channel.display_name);
                 link.attr("href", list.streams[i].channel.url + "/popout");
                 link.attr("style", "font-size:30px");
 
