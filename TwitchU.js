@@ -28,7 +28,7 @@ $(function () {
             for (var i = 0; i < list._total; i++) {
                 //Generate the preview and link
 				var image = list.streams[i].preview.template;
-				image = image.replace("{width}x{height}", "250x250");
+				image = image.replace("{width}x{height}", "250x141");
                 var preview = $("<img></img>").attr("src", image);
 
                 var link = $("<a></a>");
