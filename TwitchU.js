@@ -32,13 +32,13 @@ $(function () {
                 var preview = $("<img></img>").attr("src", image);
 
                 var link = $("<a></a>");
-                link.text(preview + "<br>" + list.streams[i].channel.display_name);
+                link.text(list.streams[i].channel.display_name);
                 link.attr("href", list.streams[i].channel.url + "/popout");
                 link.attr("style", "font-size:30px");
 
                 //Put the preview and link into a previewStream class and append to #content div.
                 var previewBox = $("<div class='previewStream'></div>");
-                previewBox.append(link, "<br>playing " + list.streams[i].channel.game);
+                previewBox.append(preview, "<br>", link, "<br>playing " + list.streams[i].channel.game);
                 $("#content").append(previewBox);
             }
         });
