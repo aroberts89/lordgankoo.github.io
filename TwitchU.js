@@ -27,7 +27,7 @@ $(function () {
         Twitch.api({ method: 'streams/followed', params: { stream_type: 'live' } }, function (error, list) {
             for (var i = 0; i < list._total; i++) {
                 //Generate the preview and link
-                var preview = $("<img></img>").attr("src", list.streams[i].preview.medium);
+                var preview = $("<img></img>").attr("src", list.streams[i].preview.template);
                 var link = $("<a></a>");
                 link.text(list.streams[i].channel.display_name);
                 link.attr("href", list.streams[i].channel.url + "/popout");

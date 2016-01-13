@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Sniglet);
+
 body{
 	font-family: 'Sniglet', cursive;
 	margin:0px;
@@ -76,3 +77,5 @@ footer {
 footer a:link, footer a:visited {
 	color:#8FCD8F;
 }
+
+/*WiiU GamePad Responsiveness @980px*/
