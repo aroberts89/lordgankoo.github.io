@@ -13,8 +13,7 @@ $(function () {
 
     $('.twitch-connect').click(function () {
         Twitch.login({
-            scope: ['user_read', 'channel_read'],
-            popup: true
+            scope: ['user_read', 'channel_read']
         });
     });
 
