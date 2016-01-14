@@ -97,7 +97,7 @@ footer a:link, footer a:visited {
 @media only screen
 and (min-width : 854px) {
 .previewStream {
-	width:43%;
-	padding-bottom:37%;
+	width:42%;
+	padding-bottom:38%;
 }
 }
