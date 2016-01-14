@@ -1,6 +1,6 @@
 $(function () {
     var initStatus;
-    Twitch.init({ clientId: 'g8b3gmetao07foo9k9u2y7tlku7z10o', redirect_uri: 'https://lordgankoo.github.io/' }, function (error, status) {
+    Twitch.init({ clientId: 'g8b3gmetao07foo9k9u2y7tlku7z10o', redirect_uri: 'https://lordgankoo.github.io/', force_verify: true }, function (error, status) {
         // the sdk is now loaded
         initStatus = status;
         if (status.authenticated) {
@@ -14,7 +14,6 @@ $(function () {
     $('.twitch-connect').click(function () {
         Twitch.login({
             scope: ['user_read', 'channel_read'],
-            force_verify: true
         });
     });
 
