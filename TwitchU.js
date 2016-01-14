@@ -5,6 +5,9 @@ $(function () {
         initStatus = status;
         if (status.authenticated) {
             $('.twitch-connect').hide();
+			var mainContent = document.getElementById("content")
+			mainContent.innerHTML = "No Streams to Display. Log in!";
+			mainContent.className = "mainContentStyle";
         }
         else {
             $('.logout').hide();

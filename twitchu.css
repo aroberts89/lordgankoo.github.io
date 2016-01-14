@@ -59,6 +59,11 @@ header {
 	padding-bottom:15px;
 }
 
+.mainContentStyle {
+	text-align:center;
+	color:#e9ecef;
+	font-size:28px;
+}
 .previewStream {
 	float:left;
 	width:30%;
