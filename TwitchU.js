@@ -24,6 +24,7 @@ $(function () {
         Twitch.logout(function (error) {
             location.reload(true);
 			sessionStorage.removeItem();
+			mainContent.innerHTML = "";
         });
     });
 
