@@ -96,6 +96,10 @@ footer a:link, footer a:visited {
 /*WiiU GamePad Responsiveness @854px*/
 @media only screen
 and (max-width : 854px) {
+	
+body {
+	width:854px;
+}	
 .previewStream {
 	width:42%;
 	padding-bottom:39%;
