@@ -56,11 +56,12 @@ header {
 	width:70%;
 	min-height:800px;
 	overflow:hidden;
+	padding-bottom:15px;
 }
 
 .previewStream {
 	float:left;
-	width:25%;
+	width:27%;
 	margin-top:15px;
 	margin-left:10px;
 	border:1px dashed #5CAB5C;
