@@ -20,6 +20,8 @@ $(function () {
     $('.logout').click(function () {
         Twitch.logout(function (error) {
             location.reload(true);
+			var userSession = window.sessionStorage;
+			userSession = null;
         });
     });
 
