@@ -61,8 +61,10 @@ header {
 
 .mainContentStyle {
 	text-align:center;
-	color:#e9ecef;
-	font-size:28px;
+	color:#d7dadd;
+	font-size:45px;
+	display:block;
+	margin-top:25%;
 }
 .previewStream {
 	float:left;
