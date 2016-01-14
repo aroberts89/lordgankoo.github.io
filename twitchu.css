@@ -61,7 +61,7 @@ header {
 
 .previewStream {
 	float:left;
-	width:27%;
+	width:30%;
 	margin-top:15px;
 	margin-left:10px;
 	border:1px dashed #5CAB5C;
@@ -69,7 +69,7 @@ header {
 	background-color:#8FCD8F;
 	height:0;
 	overflow:hidden;
-	padding-bottom:21%;
+	padding-bottom:23%;
 	position:relative;
 }
 
