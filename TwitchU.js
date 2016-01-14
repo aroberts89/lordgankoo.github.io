@@ -1,13 +1,13 @@
 $(function () {
     var initStatus;
+	var mainContent = document.getElementById("content");
+	mainContent.innerHTML = "<span class='mainContentStyle'>No Streams to Display. Log in!</span>";
     Twitch.init({ clientId: 'g8b3gmetao07foo9k9u2y7tlku7z10o', redirect_uri: 'https://lordgankoo.github.io/' }, function (error, status) {
         // the sdk is now loaded
         initStatus = status;
         if (status.authenticated) {
             $('.twitch-connect').hide();
-			var mainContent = document.getElementById("content")
-			mainContent.innerHTML = "No Streams to Display. Log in!";
-			mainContent.className = "mainContentStyle";
+			mainContent.innerHTML = "";
         }
         else {
             $('.logout').hide();
@@ -24,7 +24,6 @@ $(function () {
         Twitch.logout(function (error) {
             location.reload(true);
 			sessionStorage.removeItem();
-			mainContent.innerHTML = "";
         });
     });
 
