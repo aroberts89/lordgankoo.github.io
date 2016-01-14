@@ -109,3 +109,17 @@ and (max-width : 854px) {
 	padding-bottom:39%;
 }
 }
+
+/*WiiU GamePad Responsiveness @1440px*/
+@media only screen
+and (max-width : 1440px) {
+	
+.previewStream {
+	width:29%;
+	padding-bottom:26%;
+}
+
+.site-name {
+	width:450px;
+}
+}

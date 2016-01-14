@@ -1,7 +1,7 @@
 $(function () {
     var initStatus;
 	var mainContent = document.getElementById("content");
-	mainContent.innerHTML = "<span class='mainContentStyle'>No Streams to Display. Log in!</span>";
+	mainContent.innerHTML = "<span class='mainContentStyle'>No streams to display. Log in!</span>";
     Twitch.init({ clientId: 'g8b3gmetao07foo9k9u2y7tlku7z10o', redirect_uri: 'https://lordgankoo.github.io/' }, function (error, status) {
         // the sdk is now loaded
         initStatus = status;
