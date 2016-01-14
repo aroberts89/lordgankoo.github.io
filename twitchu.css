@@ -97,7 +97,7 @@ footer a:link, footer a:visited {
 @media only screen
 and (max-width : 854px) {
 	
-body {
+body, header {
 	width:854px;
 }	
 .previewStream {
