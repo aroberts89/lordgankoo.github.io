@@ -339,7 +339,7 @@
       redirect_uri: options.redirect_uri || window.location.href.replace(/#.*$/, ''),
       scope: options.scope.join(' '),
       //Gankoo's addition
-      force_verify: true;
+      force_verify: true
     };
 
     if (!params.client_id) {
