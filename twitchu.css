@@ -93,9 +93,9 @@ footer a:link, footer a:visited {
 	color:#8FCD8F;
 }
 
-/*WiiU GamePad Responsiveness @980px*/
+/*WiiU GamePad Responsiveness @854px*/
 @media only screen
-and (min-width : 980px) {
+and (min-width : 854px) {
 .previewStream {
 	width:43%;
 	padding-bottom:37%;
