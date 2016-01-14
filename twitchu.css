@@ -112,7 +112,7 @@ and (max-width : 854px) {
 
 /*WiiU GamePad Responsiveness @1440px*/
 @media only screen
-and (min-width : 1440px) {
+and (min-width : 1440px )  and (max-width: 1919px) {
 	
 .previewStream {
 	width:29%;
