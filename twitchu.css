@@ -60,12 +60,20 @@ header {
 
 .previewStream {
 	float:left;
-	width:35%;
+	width:25%;
 	margin-top:15px;
 	margin-left:10px;
 	border:1px dashed #5CAB5C;
 	padding:15px;
 	background-color:#8FCD8F;
+	hieght:0;
+	overflow:hidden;
+	padding-bottom:21%;
+	position:relative;
+}
+
+.previewStream img {
+	width:100%;
 }
 
 .previewStream a:link, .previewStream a:visited {
