@@ -22,8 +22,7 @@ $(function () {
 
     $('.logout').click(function () {
         Twitch.logout(function (error) {
-            location.reload(true);
-			sessionStorage.removeItem();
+            window.location.href = "https://lordgankoo.github.io/";
         });
     });
 
